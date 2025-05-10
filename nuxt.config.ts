@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 
   vite: {
     server: {
-      allowedHosts: ["3000.coder.buppou.com"]
+      allowedHosts: ["3000.coder.buppou.com", "buppou.com"]
     }
   },
 
