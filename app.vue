@@ -10,10 +10,10 @@
 
       <!-- Language Switcher -->
       <div class="flex justify-center mb-8">
-        <div class="flex space-x-2">
+        <div class="flex flex-wrap justify-center gap-2 md:space-x-2">
           <button v-for="l in locales" :key="l.code" @click="setLocale(l.code)"
                   :class="{'bg-sky-600 border-sky-500': locale === l.code, 'bg-slate-700 hover:bg-slate-600 border-slate-700': locale !== l.code}"
-                  class="text-slate-200 rounded-md px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 focus:ring-offset-slate-900 transition-all duration-200 border shadow-md hover:shadow-lg">
+                  class="text-slate-200 rounded-md px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 focus:ring-offset-slate-900 transition-all duration-200 border shadow-md hover:shadow-lg w-auto">
             <img :src="l.flag" :alt="l.name" class="h-5 w-5 mr-2 inline-block" />
             {{ l.name }}
           </button>
@@ -163,6 +163,7 @@ const locales = ref([
   { code: 'ja', name: '日本語', flag: '/flags/ja.svg' },
   { code: 'vi', name: 'Tiếng Việt', flag: '/flags/vi.svg' },
   { code: 'zh', name: '中文', flag: '/flags/zh.svg' },
+  { code: 'ko', name: '한국어', flag: '/flags/ko.svg' },
 ]);
 
 useHead(() => ({

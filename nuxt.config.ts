@@ -8,7 +8,8 @@ export default defineNuxtConfig({
       { code: 'vi', iso: 'vi-VN', file: 'vi.json' },
       { code: 'en', iso: 'en-US', file: 'en.json' },
       { code: 'ja', iso: 'ja-JP', file: 'ja.json' },
-      { code: 'zh', iso: 'zh-CN', file: 'zh.json' }
+      { code: 'zh', iso: 'zh-CN', file: 'zh.json' },
+      { code: 'ko', iso: 'ko-KR', file: 'ko.json' }
     ],
     lazy: true,
     defaultLocale: 'vi', // Default to Vietnamese
