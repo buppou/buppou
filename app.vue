@@ -1,12 +1,24 @@
 <template>
   <div class="min-h-screen bg-gradient-to-tr from-slate-950 via-slate-800 to-sky-900 text-slate-200 font-sans">
     <div class="container mx-auto px-4 py-12">
-      <header class="text-center mb-16 animate-fadeInDown">
+      <header class="text-center mb-16 animate-fadeInDown relative">
         <h1 class="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400 mb-3">
           {{ t('seo.title').split(' - ')[0] }}
         </h1>
         <p class="text-2xl text-sky-300 italic">{{ t('seo.title').split(' - ')[1] }}</p>
       </header>
+
+      <!-- Language Switcher -->
+      <div class="flex justify-center mb-8">
+        <div class="flex space-x-2">
+          <button v-for="l in locales" :key="l.code" @click="setLocale(l.code)"
+                  :class="{'bg-sky-600 border-sky-500': locale === l.code, 'bg-slate-700 hover:bg-slate-600 border-slate-700': locale !== l.code}"
+                  class="text-slate-200 rounded-md px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 focus:ring-offset-slate-900 transition-all duration-200 border shadow-md hover:shadow-lg">
+            <img :src="l.flag" :alt="l.name" class="h-5 w-5 mr-2 inline-block" />
+            {{ l.name }}
+          </button>
+        </div>
+      </div>
 
       <!-- Tứ Diệu Đế -->
       <section class="mb-20">
@@ -144,9 +156,16 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
 
-const { t, locale } = useI18n();
+const { t, locale, setLocale } = useI18n();
 
-useHead({
+const locales = ref([
+  { code: 'en', name: 'English', flag: '/flags/en.svg' },
+  { code: 'ja', name: '日本語', flag: '/flags/ja.svg' },
+  { code: 'vi', name: 'Tiếng Việt', flag: '/flags/vi.svg' },
+  { code: 'zh', name: '中文', flag: '/flags/zh.svg' },
+]);
+
+useHead(() => ({
   title: t('seo.title'),
   meta: [
     { name: 'description', content: t('seo.description') },
@@ -158,9 +177,9 @@ useHead({
   link: [
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-    { href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap', rel: 'stylesheet' }
+    { href: 'https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif:ital,wght@0,400..700;1,400..700&display=swap', rel: 'stylesheet' }
   ]
-})
+}))
 
 // Simple fade-in animations using Tailwind CSS classes
 const animationClasses = {
@@ -219,14 +238,14 @@ plugins: [
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif:ital,wght@0,400..700;1,400..700&display=swap');
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 h1, h2, h3 {
-  font-family: 'Lora', serif;
+  font-family: 'Noto Serif', serif;
 }
 
 /* Basic fade-in animations if not using Tailwind JIT extended animations */

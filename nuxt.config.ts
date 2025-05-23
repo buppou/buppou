@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     locales: [
       { code: 'vi', iso: 'vi-VN', file: 'vi.json' },
       { code: 'en', iso: 'en-US', file: 'en.json' },
-      { code: 'ja', iso: 'ja-JP', file: 'ja.json' }
+      { code: 'ja', iso: 'ja-JP', file: 'ja.json' },
+      { code: 'zh', iso: 'zh-CN', file: 'zh.json' }
     ],
     lazy: true,
     defaultLocale: 'vi', // Default to Vietnamese
