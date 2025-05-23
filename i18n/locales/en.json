@@ -1,0 +1,66 @@
+{
+  "welcome": "Welcome to Buppou!",
+  "seo": {
+    "title": "Four Noble Truths & Eightfold Path - Profound Enlightenment",
+    "description": "Explore in detail the Four Noble Truths and the Eightfold Path in Buddhism. Delve deep into Suffering, Origin, Cessation, Path, and the eightfold path leading to enlightenment and Nirvana.",
+    "keywords": "Four Noble Truths, Eightfold Path, Buddhism, Dukkha, Samudaya, Nirodha, Magga, Right View, Right Intention, Right Speech, Right Action, Right Livelihood, Right Effort, Right Mindfulness, Right Concentration, enlightenment, Nirvana, peace, liberation, Dharma"
+  },
+  "fourNobleTruths": {
+    "title": "The Four Noble Truths - Four Exalted Truths",
+    "truth1": {
+      "name": "1. The Truth of Suffering (Dukkha Sacca)",
+      "description": "The truth about the nature of Suffering. Suffering is not just obvious physical or mental pain, but also the underlying dissatisfaction and unfulfillment in all aspects of cyclic existence. Birth, old age, sickness, death are suffering. Sorrow, lamentation, pain, grief, and despair are suffering. Association with the unpleasant is suffering. Separation from the beloved is suffering. Not getting what one wants is suffering. In short, the five aggregates of clinging are suffering."
+    },
+    "truth2": {
+      "name": "2. The Truth of the Origin of Suffering (Samudaya Sacca)",
+      "description": "The truth about the Cause of Suffering. The deep root of all suffering is Craving (Tanha) - the incessant desire and longing. Craving includes: sensual craving (craving for sense objects), craving for existence (craving to be, to become), and craving for non-existence (craving not to be, self-annihilation). This craving is nourished by Ignorance (Avijja) - the lack of proper understanding of the nature of reality, especially concerning the Four Noble Truths and the law of Karma. From this arise hatred and other defilements."
+    },
+    "truth3": {
+      "name": "3. The Truth of the Cessation of Suffering (Nirodha Sacca)",
+      "description": "The truth about the Cessation of Suffering. This is the state of absolute peace, Nirvana (Nibbana), where all suffering and its causes have been completely eradicated. It is the complete cessation of Craving, Hatred, and Delusion. Nirvana is not a place, but a state of liberated mind, free from all bonds of the cycle of existence."
+    },
+    "truth4": {
+      "name": "4. The Truth of the Path to the Cessation of Suffering (Magga Sacca)",
+      "description": "The truth about the Path of practice leading to the Cessation of Suffering. This is the Noble Eightfold Path (Ariya Atthangika Magga), the middle path consisting of eight components, helping practitioners to cultivate wisdom, liberation, and Nirvana."
+    }
+  },
+  "eightfoldPath": {
+    "title": "The Eightfold Path - The Path of Eightfold Rightness",
+    "path1": {
+      "name": "1. Right View (Samma Ditthi)",
+      "description": "Correct understanding of the Four Noble Truths, the law of Karma, Impermanence (Anicca), Non-self (Anatta), Dependent Origination (Paticcasamuppada). This is the foundation for the entire path of practice."
+    },
+    "path2": {
+      "name": "2. Right Intention (Samma Sankappa)",
+      "description": "Right thoughts and aspirations, leading upwards. Includes: thoughts of renunciation (non-sensuality, non-greed), thoughts of non-ill-will (loving-kindness), and thoughts of non-harming (compassion, non-violence)."
+    },
+    "path3": {
+      "name": "3. Right Speech (Samma Vaca)",
+      "description": "Right, truthful, and harmonious speech. Avoiding lying, divisive speech (slander), harsh speech (abusive language), and idle chatter (frivolous, meaningless talk)."
+    },
+    "path4": {
+      "name": "4. Right Action (Samma Kammanta)",
+      "description": "Right, wholesome actions. Avoiding killing (taking life), stealing (taking what is not given), and sexual misconduct (unlawful sexual relations)."
+    },
+    "path5": {
+      "name": "5. Right Livelihood (Samma Ajiva)",
+      "description": "Earning one's living by right, honest means. Avoiding professions that harm living beings or are unethical, such as trading in weapons, human beings, poisons, or slaughtering animals."
+    },
+    "path6": {
+      "name": "6. Right Effort (Samma Vayama)",
+      "description": "Right, diligent exertion. Includes four types: effort to prevent unwholesome states from arising; effort to abandon unwholesome states that have arisen; effort to develop unarisen wholesome states; effort to maintain and increase arisen wholesome states."
+    },
+    "path7": {
+      "name": "7. Right Mindfulness (Samma Sati)",
+      "description": "Right remembrance, correct awareness. Always being mindful, clearly aware of what is happening in the present moment, regarding the body (kāya), feelings (vedanā), mind (citta), and mental objects (dhamma)."
+    },
+    "path8": {
+      "name": "8. Right Concentration (Samma Samadhi)",
+      "description": "Right, firm concentration of mind on a single object. Developing the stages of meditative absorption (Jhana) to achieve a state of calm and clear mind, serving as a foundation for the development of wisdom (Panna)."
+    }
+  },
+  "footer": {
+    "line1": "The Four Noble Truths are the map showing suffering and its causes, the Eightfold Path is the practical way to reach the destination.",
+    "line2": "May all beings understand the Dharma, practice diligently, and attain peace and liberation."
+  }
+}
