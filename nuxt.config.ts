@@ -12,7 +12,7 @@ export default defineNuxtConfig({
       { code: 'ko', iso: 'ko-KR', file: 'ko.json' }
     ],
     lazy: true,
-    defaultLocale: 'vi', // Default to Vietnamese
+    defaultLocale: 'ja', // Default to Japanese
     strategy: 'no_prefix', // Use no_prefix strategy for cleaner URLs
     detectBrowserLanguage: {
       useCookie: true,
