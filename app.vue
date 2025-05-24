@@ -14,7 +14,7 @@
           <button v-for="l in locales" :key="l.code" @click="setLocale(l.code)"
                   :class="{'bg-sky-600 border-sky-500': locale === l.code, 'bg-slate-700 hover:bg-slate-600 border-slate-700': locale !== l.code}"
                   class="text-slate-200 rounded-md px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 focus:ring-offset-slate-900 transition-all duration-200 border shadow-md hover:shadow-lg w-auto">
-            <img :src="l.flag" :alt="l.name" class="h-5 w-5 mr-2 inline-block" />
+            <img :src="l.flag" :alt="l.name" class="h-6 w-6 mr-2 inline-block" />
             {{ l.name }}
           </button>
         </div>
@@ -30,7 +30,7 @@
         <div class="grid md:grid-cols-2 gap-10">
           <div class="bg-slate-800/70 backdrop-blur-md p-8 rounded-xl shadow-2xl border border-slate-700 hover:border-green-500 transition-all duration-300 transform hover:scale-105 animate-fadeInUpDel_1">
             <h3 class="text-3xl font-semibold text-green-400 mb-4 flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-3 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 min-w-8 min-h-8 mr-3 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 10a.01.01 0 001.01.01M15 10a.01.01 0 001.01.01M9 16h6m-3-3v3m0 0h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
               {{ t('fourNobleTruths.truth1.name') }}
             </h3>
             <p class="text-slate-300 leading-relaxed text-lg">
@@ -39,7 +39,7 @@
           </div>
           <div class="bg-slate-800/70 backdrop-blur-md p-8 rounded-xl shadow-2xl border border-slate-700 hover:border-green-500 transition-all duration-300 transform hover:scale-105 animate-fadeInUpDel_2">
             <h3 class="text-3xl font-semibold text-green-400 mb-4 flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-3 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a4 4 0 00-5.656 0M14 10l-4 4m0 0l-4-4m4 4V4" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 min-w-8 min-h-8 mr-3 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
               {{ t('fourNobleTruths.truth2.name') }}
             </h3>
             <p class="text-slate-300 leading-relaxed text-lg">
@@ -48,7 +48,7 @@
           </div>
           <div class="bg-slate-800/70 backdrop-blur-md p-8 rounded-xl shadow-2xl border border-slate-700 hover:border-green-500 transition-all duration-300 transform hover:scale-105 animate-fadeInUpDel_3">
             <h3 class="text-3xl font-semibold text-green-400 mb-4 flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-3 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 min-w-8 min-h-8 mr-3 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
               {{ t('fourNobleTruths.truth3.name') }}
             </h3>
             <p class="text-slate-300 leading-relaxed text-lg">
@@ -57,7 +57,7 @@
           </div>
           <div class="bg-slate-800/70 backdrop-blur-md p-8 rounded-xl shadow-2xl border border-slate-700 hover:border-green-500 transition-all duration-300 transform hover:scale-105 animate-fadeInUpDel_4">
             <h3 class="text-3xl font-semibold text-green-400 mb-4 flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-3 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 min-w-8 min-h-8 mr-3 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2a10 10 0 100 20 10 10 0 000-20zM12 14a2 2 0 100-4 2 2 0 000 4zM12 2v2m0 16v2m8-10h2M2 12h2m14.828-5.657l1.414-1.414M5.657 18.343L4.243 19.757m14.828 1.414l-1.414-1.414M4.243 4.243L5.657 5.657" /></svg>
               {{ t('fourNobleTruths.truth4.name') }}
             </h3>
             <p class="text-slate-300 leading-relaxed text-lg">
@@ -118,7 +118,7 @@
           <!-- Chánh Tinh Tấn -->
           <div class="group bg-slate-800/70 backdrop-blur-md p-6 rounded-lg shadow-xl border border-slate-700 hover:border-purple-500 transition-all duration-300 animate-fadeInUpDel_6">
             <div class="flex justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-purple-400 group-hover:text-purple-300 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-purple-400 group-hover:text-purple-300 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
             </div>
             <h3 class="text-xl font-semibold text-purple-300 mb-2 text-center">{{ t('eightfoldPath.path6.name') }}</h3>
             <p class="text-slate-400 text-sm leading-relaxed">{{ t('eightfoldPath.path6.description') }}</p>
@@ -134,7 +134,7 @@
           <!-- Chánh Định -->
           <div class="group bg-slate-800/70 backdrop-blur-md p-6 rounded-lg shadow-xl border border-slate-700 hover:border-purple-500 transition-all duration-300 animate-fadeInUpDel_8">
             <div class="flex justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-purple-400 group-hover:text-purple-300 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 10V9a3 3 0 013-3v0a3 3 0 013 3v1" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-purple-400 group-hover:text-purple-300 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v.01M12 12v.01M12 18v.01M12 3a9 9 0 100 18 9 9 0 000-18z" /></svg>
             </div>
             <h3 class="text-xl font-semibold text-purple-300 mb-2 text-center">{{ t('eightfoldPath.path8.name') }}</h3>
             <p class="text-slate-400 text-sm leading-relaxed">{{ t('eightfoldPath.path8.description') }}</p>
@@ -142,12 +142,12 @@
         </div>
       </section>
 
-      <footer class="text-center mt-20 pt-10 border-t border-slate-700 animate-fadeInUp">
-        <p class="text-slate-400 text-lg">
+      <footer class="flex flex-col items-center justify-center mt-20 pt-10 border-t border-slate-700 animate-fadeInUp">
+        <p class="text-slate-400 text-lg text-center">
           <span class="font-bold text-amber-400">{{ t('seo.title').split(' - ')[0] }}</span> {{ t('footer.line1').split(',')[0] }},
           <span class="font-bold text-purple-400">{{ t('seo.title').split(' - ')[1] }}</span> {{ t('footer.line1').split(',')[1] }}.
         </p>
-        <p class="text-slate-500 mt-4 text-sm">{{ t('footer.line2') }}</p>
+        <p class="text-slate-500 mt-4 text-sm text-center">{{ t('footer.line2') }}</p>
       </footer>
     </div>
   </div>
@@ -195,47 +195,6 @@ const animationClasses = {
   fadeInUpDel_7: 'animate-fade-in-up animation-delay-700',
   fadeInUpDel_8: 'animate-fade-in-up animation-delay-800',
 }
-
-// Add custom animation keyframes and utilities to Tailwind config if needed
-// For this example, we assume basic fade-in is available or can be added to tailwind.config.js
-// Example for tailwind.config.js:
-/*
-theme: {
-  extend: {
-    animation: {
-      'fade-in-down': 'fadeInDown 0.5s ease-out',
-      'fade-in-up': 'fadeInUp 0.5s ease-out',
-    },
-    keyframes: {
-      fadeInDown: {
-        '0%': { opacity: '0', transform: 'translateY(-20px)' },
-        '100%': { opacity: '1', transform: 'translateY(0)' },
-      },
-      fadeInUp: {
-        '0%': { opacity: '0', transform: 'translateY(20px)' },
-        '100%': { opacity: '1', transform: 'translateY(0)' },
-      },
-    },
-    animationDelay: { // Custom utility for animation delays
-        '100': '100ms',
-        '200': '200ms',
-        // ... add more as needed
-      }
-  },
-},
-plugins: [
-  function({ addUtilities }) {
-    const newUtilities = {}
-    const delays = ['100', '200', '300', '400', '500', '600', '700', '800'] // ms
-    delays.forEach(delay => {
-      newUtilities[`.animation-delay-${delay}`] = {
-        'animation-delay': `${delay}ms`,
-      }
-    })
-    addUtilities(newUtilities, ['responsive', 'hover'])
-  }
-],
-*/
 </script>
 
 <style>
