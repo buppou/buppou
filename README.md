@@ -164,3 +164,7 @@ For more details on i18n usage, refer to the [@nuxtjs/i18n documentation](https:
 *   [Nuxt 3 Deployment Documentation](https://nuxt.com/docs/getting-started/deployment)
 *   [@nuxtjs/i18n Documentation](https://i18n.nuxtjs.org/)
 *   [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
