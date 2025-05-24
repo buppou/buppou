@@ -60,7 +60,8 @@
     }
   },
   "footer": {
-    "line1": "The Four Noble Truths are the map showing suffering and its causes, the Eightfold Path is the practical way to reach the destination.",
+    "line1_part1": "The Four Noble Truths are the map showing suffering and its causes.",
+    "line1_part2": "the Eightfold Path is the practical way to reach the destination.",
     "line2": "May all beings understand the Dharma, practice diligently, and attain peace and liberation."
   }
 }

@@ -60,7 +60,8 @@
     }
   },
   "footer": {
-    "line1": "Tứ Diệu Đế là tấm bản đồ chỉ ra khổ đau và nguyên nhân, Bát Chánh Đạo là con đường thực hành để đi đến đích.",
+    "line1_part1": "Tứ Diệu Đế là tấm bản đồ chỉ ra khổ đau và nguyên nhân.",
+    "line1_part2": "Bát Chánh Đạo là con đường thực hành để đi đến đích.",
     "line2": "Nguyện mọi chúng sanh đều thấu hiểu Chánh Pháp, thực hành tinh tấn, và đạt được an lạc giải thoát."
   }
 }

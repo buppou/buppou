@@ -144,8 +144,8 @@
 
       <footer class="flex flex-col items-center justify-center mt-20 pt-10 border-t border-slate-700 animate-fadeInUp">
         <p class="text-slate-400 text-lg text-center">
-          <span class="font-bold text-amber-400">{{ t('seo.title').split(' - ')[0] }}</span> {{ t('footer.line1').split(',')[0] }},
-          <span class="font-bold text-purple-400">{{ t('seo.title').split(' - ')[1] }}</span> {{ t('footer.line1').split(',')[1] }}.
+          <span class="font-bold text-amber-400">{{ t('seo.title').split(' - ')[0] }}</span> {{ t('footer.line1_part1') }}<br>
+          <span class="font-bold text-purple-400">{{ t('seo.title').split(' - ')[1] }}</span> {{ t('footer.line1_part2') }}
         </p>
         <p class="text-slate-500 mt-4 text-sm text-center">{{ t('footer.line2') }}</p>
       </footer>
@@ -166,6 +166,7 @@ const locales = ref([
   { code: 'ko', name: '한국어', flag: '/flags/ko.svg' },
 ]);
 
+
 useHead(() => ({
   title: t('seo.title'),
   meta: [
@@ -181,7 +182,7 @@ useHead(() => ({
     { href: 'https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif:ital,wght@0,400..700;1,400..700&display=swap', rel: 'stylesheet' }
   ]
 }))
-
+ 
 // Simple fade-in animations using Tailwind CSS classes
 const animationClasses = {
   fadeInDown: 'animate-fade-in-down',
