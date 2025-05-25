@@ -63,7 +63,7 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
-import { slugify } from '~/utils/slugify';
+import { slugify, cleanEnglishName } from '~/utils/slugify';
 import enFourNobleTruths from '~/i18n/locales/en/fourNobleTruths.json';
 import enEightfoldPath from '~/i18n/locales/en/eightfoldPath.json';
 import { computed } from 'vue';
@@ -108,16 +108,6 @@ const { t, locale } = useI18n();
 const fourNobleTruthsData = enFourNobleTruths as FourNobleTruthsData;
 const eightfoldPathData = enEightfoldPath as EightfoldPathData;
 
-
-// Helper function to clean English names for slug generation
-function cleanEnglishName(name: string): string {
-    // Remove leading number and dot (e.g., "1. ")
-    let cleanedName = name.replace(/^\d+\.\s*/, '');
-    // Remove content in parentheses (e.g., " (Dukkha Sacca)")
-    cleanedName = cleanedName.replace(/\s*\(.*?\)\s*/, '');
-    console.log(`Cleaned name: ${cleanedName}`);
-    return cleanedName;
-}
 
 // Computed properties to filter out the 'title' and provide items for v-for
 const fourNobleTruthsItems = computed(() => {

@@ -15,6 +15,13 @@ export function slugify(text: string): string {
     .replace(/-+/g, '-') // Replace multiple hyphens with a single hyphen
     .replace(/^-+/, '') // Trim hyphens from start
     .replace(/-+$/, ''); // Trim hyphens from end
-  console.log('slugify', slug);
   return slug;
+}
+
+export function cleanEnglishName(name: string): string {
+  // Remove leading number and dot (e.g., "1. ")
+  let cleanedName = name.replace(/^\d+\.\s*/, '');
+  // Remove content in parentheses (e.g., " (Dukkha Sacca)")
+  cleanedName = cleanedName.replace(/\s*\(.*?\)\s*/, '');
+  return cleanedName;
 }

@@ -1,7 +1,7 @@
 <template>
     <div class="min-h-screen bg-gradient-to-tr from-slate-950 via-slate-800 to-sky-900 text-slate-200 font-sans">
         <div class="container mx-auto px-4 py-12">
-            <header class="text-center mb-16 animate-fadeInDown relative">
+            <header class="text-center mb-8 animate-fadeInDown relative">
                 <h1
                     class="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400 mb-3">
                     {{ $t('seo.title').split(' - ')[0] }}
