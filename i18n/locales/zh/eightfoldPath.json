@@ -1,0 +1,35 @@
+{
+  "title": "八正道 - 八种正确之道",
+  "path1": {
+    "name": "1. 正见 (Samma Ditthi)",
+    "description": "对四圣谛、业（Kamma）法则、无常（Anicca）、无我（Anatta）、缘起（Paticcasamuppada）的正确理解。这是整个修行之道的基础。"
+  },
+  "path2": {
+    "name": "2. 正思惟 (Samma Sankappa)",
+    "description": "正确的思考和向上意图。包括：离欲（不贪欲）的思惟、无嗔（慈悲）的思惟和无害（不伤害）的思惟。"
+  },
+  "path3": {
+    "name": "3. 正语 (Samma Vaca)",
+    "description": "正确、真实、和谐的言语。避免妄语（说谎）、两舌（挑拨离间）、恶口（粗言秽语）和绮语（无益的闲聊）。"
+  },
+  "path4": {
+    "name": "4. 正业 (Samma Kammanta)",
+    "description": "正确、善的行动。避免杀生（夺取生命）、偷盗（不与而取）和邪淫（不正当的性行为）。"
+  },
+  "path5": {
+    "name": "5. 正命 (Samma Ajiva)",
+    "description": "以正确、诚实的手段谋生。避免从事伤害众生或不道德的职业，如武器交易、人口贩卖、毒品交易或屠宰动物。"
+  },
+  "path6": {
+    "name": "6. 正精进 (Samma Vayama)",
+    "description": "正确、勤奋的努力。包括四种：努力防止未生恶法生起；努力断除已生恶法；努力使未生善法生起；努力维持和增长已生善法。"
+  },
+  "path7": {
+    "name": "7. 正念 (Samma Sati)",
+    "description": "正确的忆念和觉知。始终保持警觉，清楚地觉知当下发生的一切，包括身（身体）、受（感受）、心（心识）和法（心所缘）。"
+  },
+  "path8": {
+    "name": "8. 正定 (Samma Samadhi)",
+    "description": "将心正确、坚定地集中于一个对象。发展禅定（Jhana）的各个阶段，以达到平静、清晰的心境，作为发展智慧（Panna）的基础。"
+  }
+}

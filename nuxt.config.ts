@@ -2,14 +2,14 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/i18n"],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n'],
   i18n: {
     locales: [
-      { code: 'vi', iso: 'vi-VN', file: 'vi.json' },
-      { code: 'en', iso: 'en-US', file: 'en.json' },
-      { code: 'ja', iso: 'ja-JP', file: 'ja.json' },
-      { code: 'zh', iso: 'zh-CN', file: 'zh.json' },
-      { code: 'ko', iso: 'ko-KR', file: 'ko.json' }
+      { code: 'vi', iso: 'vi-VN', file: 'vi/index.ts' },
+      { code: 'en', iso: 'en-US', file: 'en/index.ts' },
+      { code: 'ja', iso: 'ja-JP', file: 'ja/index.ts' },
+      { code: 'zh', iso: 'zh-CN', file: 'zh/index.ts' },
+      { code: 'ko', iso: 'ko-KR', file: 'ko/index.ts' },
     ],
     lazy: true,
     defaultLocale: 'ja', // Default to Japanese
@@ -17,7 +17,8 @@ export default defineNuxtConfig({
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',
-      redirectOn: 'root',  // recommended
-    }
-  }
-})
+      redirectOn: 'root', // recommended
+    },
+    baseUrl: process.env.NUXT_PUBLIC_BASE_URL || 'http://localhost:3000', // Add your production URL here
+  },
+});

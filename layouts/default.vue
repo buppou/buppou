@@ -38,7 +38,10 @@
 </template>
 
 <script setup lang="ts">
-const { locale, setLocale } = useI18n();
+import { useI18n, useLocaleHead } from '#imports';
+import { useHead } from '#app'; // Use Nuxt's built-in useHead
+
+const { locale, setLocale, t } = useI18n();
 
 const locales = ref<{ code: 'vi' | 'en' | 'ja' | 'zh' | 'ko', name: string, flag: string }[]>([
     { code: 'en', name: 'English', flag: '/flags/en.svg' },
@@ -47,6 +50,38 @@ const locales = ref<{ code: 'vi' | 'en' | 'ja' | 'zh' | 'ko', name: string, flag
     { code: 'zh', name: '中文', flag: '/flags/zh.svg' },
     { code: 'ko', name: '한국어', flag: '/flags/ko.svg' },
 ]);
+
+// useLocaleHead should generate necessary localized head attributes based on nuxt.config.ts
+const i18nHead = useLocaleHead({});
+
+useHead(() => ({
+    htmlAttrs: i18nHead.value.htmlAttrs,
+    link: i18nHead.value.link,
+    meta: [
+        ...i18nHead.value.meta,
+        {
+            name: 'description',
+            content: t('seo.description') // Assuming you have a translation key for description
+        },
+        {
+            property: 'og:title',
+            content: t('seo.ogTitle') // Assuming you have a translation key for ogTitle
+        },
+        {
+            property: 'og:description',
+            content: t('seo.ogDescription') // Assuming you have a translation key for ogDescription
+        },
+        {
+            property: 'og:image',
+            content: t('seo.ogImage') // Assuming you have a translation key for ogImage
+        },
+        {
+            name: 'twitter:card',
+            content: 'summary_large_image' // Or use a translation key if needed
+        }
+    ],
+    title: t('seo.title') // Assuming you have a translation key for title
+}));
 </script>
 
 <style></style>

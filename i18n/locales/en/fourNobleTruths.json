@@ -1,0 +1,19 @@
+{
+  "title": "The Four Noble Truths - Four Exalted Truths",
+  "truth1": {
+    "name": "1. The Truth of Suffering (Dukkha Sacca)",
+    "description": "The truth about the nature of Suffering. Suffering is not just obvious physical or mental pain, but also the underlying dissatisfaction and unfulfillment in all aspects of cyclic existence. Birth, old age, sickness, death are suffering. Sorrow, lamentation, pain, grief, and despair are suffering. Association with the unpleasant is suffering. Separation from the beloved is suffering. Not getting what one wants is suffering. In short, the five aggregates of clinging are suffering."
+  },
+  "truth2": {
+    "name": "2. The Truth of the Origin of Suffering (Samudaya Sacca)",
+    "description": "The truth about the Cause of Suffering. The deep root of all suffering is Craving (Tanha) - the incessant desire and longing. Craving includes: sensual craving (craving for sense objects), craving for existence (craving to be, to become), and craving for non-existence (craving not to be, self-annihilation). This craving is nourished by Ignorance (Avijja) - the lack of proper understanding of the nature of reality, especially concerning the Four Noble Truths and the law of Karma. From this arise hatred and other defilements."
+  },
+  "truth3": {
+    "name": "3. The Truth of the Cessation of Suffering (Nirodha Sacca)",
+    "description": "The truth about the Cessation of Suffering. This is the state of absolute peace, Nirvana (Nibbana), where all suffering and its causes have been completely eradicated. It is the complete cessation of Craving, Hatred, and Delusion. Nirvana is not a place, but a state of liberated mind, free from all bonds of the cycle of existence."
+  },
+  "truth4": {
+    "name": "4. The Truth of the Path to the Cessation of Suffering (Magga Sacca)",
+    "description": "The truth about the Path of practice leading to the Cessation of Suffering. This is the Noble Eightfold Path (Ariya Atthangika Magga), the middle path consisting of eight components, helping practitioners to cultivate wisdom, liberation, and Nirvana."
+  }
+}

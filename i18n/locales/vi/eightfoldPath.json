@@ -1,0 +1,35 @@
+{
+  "title": "Bát Chánh Đạo - Con Đường Tám Chánh",
+  "path1": {
+    "name": "1. Chánh Kiến (Samma Ditthi)",
+    "description": "Hiểu biết đúng đắn về Tứ Diệu Đế, luật Nhân Quả (Kamma), Vô Thường (Anicca), Vô Ngã (Anatta), Duyên Khởi (Paticcasamuppada). Đây là nền tảng cho toàn bộ con đường tu tập."
+  },
+  "path2": {
+    "name": "2. Chánh Tư Duy (Samma Sankappa)",
+    "description": "Suy nghĩ, ý định đúng đắn, hướng thượng. Bao gồm: Tư duy về sự từ bỏ (ly dục, ly tham), tư duy về sự không sân hận (từ bi), và tư duy về sự không làm hại (bất hại, vô sân)."
+  },
+  "path3": {
+    "name": "3. Chánh Ngữ (Samma Vaca)",
+    "description": "Lời nói đúng đắn, chân thật, hòa ái. Tránh nói dối, nói lời chia rẽ (đâm thọc), nói lời độc ác (mắng nhiếc, chửi rủa), và nói lời vô ích (phù phiếm, nhảm nhí)."
+  },
+  "path4": {
+    "name": "4. Chánh Nghiệp (Samma Kammanta)",
+    "description": "Hành động đúng đắn, thiện lành. Tránh sát sanh (giết hại chúng sanh), tránh trộm cắp (lấy của không cho), và tránh tà dâm (quan hệ tình dục bất chính)."
+  },
+  "path5": {
+    "name": "5. Chánh Mạng (Samma Ajiva)",
+    "description": "Nuôi sống bản thân bằng nghề nghiệp chân chính, lương thiện. Tránh các nghề nghiệp gây hại cho chúng sanh hoặc trái với đạo đức như buôn bán vũ khí, buôn bán người, buôn bán chất độc, nghề sát sanh..."
+  },
+  "path6": {
+    "name": "6. Chánh Tinh Tấn (Samma Vayama)",
+    "description": "Nỗ lực, siêng năng đúng đắn. Bao gồm bốn loại: Nỗ lực ngăn ngừa điều ác chưa sanh; Nỗ lực diệt trừ điều ác đã sanh; Nỗ lực phát triển điều thiện chưa sanh; Nỗ lực duy trì và tăng trưởng điều thiện đã sanh."
+  },
+  "path7": {
+    "name": "7. Chánh Niệm (Samma Sati)",
+    "description": "Ghi nhớ, ý thức đúng đắn. Luôn tỉnh giác, nhận biết rõ ràng về những gì đang xảy ra trong hiện tại, đối với thân (thân thể), thọ (cảm giác), tâm (trạng thái tâm), và pháp (các đối tượng của tâm)."
+  },
+  "path8": {
+    "name": "8. Chánh Định (Samma Samadhi)",
+    "description": "Tập trung tâm ý đúng đắn, vững chắc vào một đối tượng duy nhất. Phát triển các tầng thiền định (Jhana) để đạt được trạng thái tâm an tĩnh, sáng suốt, làm nền tảng cho sự phát triển trí tuệ (Panna)."
+  }
+}

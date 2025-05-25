@@ -1,0 +1,35 @@
+{
+  "title": "The Eightfold Path - The Path of Eightfold Rightness",
+  "path1": {
+    "name": "1. Right View (Samma Ditthi)",
+    "description": "Correct understanding of the Four Noble Truths, the law of Karma, Impermanence (Anicca), Non-self (Anatta), Dependent Origination (Paticcasamuppada). This is the foundation for the entire path of practice."
+  },
+  "path2": {
+    "name": "2. Right Intention (Samma Sankappa)",
+    "description": "Right thoughts and aspirations, leading upwards. Includes: thoughts of renunciation (non-sensuality, non-greed), thoughts of non-ill-will (loving-kindness), and thoughts of non-harming (compassion, non-violence)."
+  },
+  "path3": {
+    "name": "3. Right Speech (Samma Vaca)",
+    "description": "Right, truthful, and harmonious speech. Avoiding lying, divisive speech (slander), harsh speech (abusive language), and idle chatter (frivolous, meaningless talk)."
+  },
+  "path4": {
+    "name": "4. Right Action (Samma Kammanta)",
+    "description": "Right, wholesome actions. Avoiding killing (taking life), stealing (taking what is not given), and sexual misconduct (unlawful sexual relations)."
+  },
+  "path5": {
+    "name": "5. Right Livelihood (Samma Ajiva)",
+    "description": "Earning one's living by right, honest means. Avoiding professions that harm living beings or are unethical, such as trading in weapons, human beings, poisons, or slaughtering animals."
+  },
+  "path6": {
+    "name": "6. Right Effort (Samma Vayama)",
+    "description": "Right, diligent exertion. Includes four types: effort to prevent unwholesome states from arising; effort to abandon unwholesome states that have arisen; effort to develop unarisen wholesome states; effort to maintain and increase arisen wholesome states."
+  },
+  "path7": {
+    "name": "7. Right Mindfulness (Samma Sati)",
+    "description": "Right remembrance, correct awareness. Always being mindful, clearly aware of what is happening in the present moment, regarding the body (kāya), feelings (vedanā), mind (citta), and mental objects (dhamma)."
+  },
+  "path8": {
+    "name": "8. Right Concentration (Samma Samadhi)",
+    "description": "Right, firm concentration of mind on a single object. Developing the stages of meditative absorption (Jhana) to achieve a state of calm and clear mind, serving as a foundation for the development of wisdom (Panna)."
+  }
+}

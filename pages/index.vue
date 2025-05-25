@@ -91,7 +91,7 @@
                         </svg>
                     </div>
                     <h3 class="text-xl font-semibold text-purple-300 mb-2 text-center">{{ $t('eightfoldPath.path1.name')
-                        }}</h3>
+                    }}</h3>
                     <p class="text-slate-400 text-sm leading-relaxed">{{ $t('eightfoldPath.path1.description') }}</p>
                 </div>
                 <!-- Chánh Tư Duy -->
@@ -106,7 +106,7 @@
                         </svg>
                     </div>
                     <h3 class="text-xl font-semibold text-purple-300 mb-2 text-center">{{ $t('eightfoldPath.path2.name')
-                        }}</h3>
+                    }}</h3>
                     <p class="text-slate-400 text-sm leading-relaxed">{{ $t('eightfoldPath.path2.description') }}</p>
                 </div>
                 <!-- Chánh Ngữ -->
@@ -121,7 +121,7 @@
                         </svg>
                     </div>
                     <h3 class="text-xl font-semibold text-purple-300 mb-2 text-center">{{ $t('eightfoldPath.path3.name')
-                        }}</h3>
+                    }}</h3>
                     <p class="text-slate-400 text-sm leading-relaxed">{{ $t('eightfoldPath.path3.description') }}</p>
                 </div>
                 <!-- Chánh Nghiệp -->
@@ -136,7 +136,7 @@
                         </svg>
                     </div>
                     <h3 class="text-xl font-semibold text-purple-300 mb-2 text-center">{{ $t('eightfoldPath.path4.name')
-                        }}</h3>
+                    }}</h3>
                     <p class="text-slate-400 text-sm leading-relaxed">{{ $t('eightfoldPath.path4.description') }}</p>
                 </div>
                 <!-- Chánh Mạng -->
@@ -151,7 +151,7 @@
                         </svg>
                     </div>
                     <h3 class="text-xl font-semibold text-purple-300 mb-2 text-center">{{ $t('eightfoldPath.path5.name')
-                        }}</h3>
+                    }}</h3>
                     <p class="text-slate-400 text-sm leading-relaxed">{{ $t('eightfoldPath.path5.description') }}</p>
                 </div>
                 <!-- Chánh Tinh Tấn -->
@@ -166,7 +166,7 @@
                         </svg>
                     </div>
                     <h3 class="text-xl font-semibold text-purple-300 mb-2 text-center">{{ $t('eightfoldPath.path6.name')
-                        }}</h3>
+                    }}</h3>
                     <p class="text-slate-400 text-sm leading-relaxed">{{ $t('eightfoldPath.path6.description') }}</p>
                 </div>
                 <!-- Chánh Niệm -->
@@ -184,7 +184,7 @@
                         </svg>
                     </div>
                     <h3 class="text-xl font-semibold text-purple-300 mb-2 text-center">{{ $t('eightfoldPath.path7.name')
-                        }}</h3>
+                    }}</h3>
                     <p class="text-slate-400 text-sm leading-relaxed">{{ $t('eightfoldPath.path7.description') }}</p>
                 </div>
                 <!-- Chánh Định -->
@@ -199,7 +199,7 @@
                         </svg>
                     </div>
                     <h3 class="text-xl font-semibold text-purple-300 mb-2 text-center">{{ $t('eightfoldPath.path8.name')
-                        }}</h3>
+                    }}</h3>
                     <p class="text-slate-400 text-sm leading-relaxed">{{ $t('eightfoldPath.path8.description') }}</p>
                 </div>
             </div>
@@ -217,14 +217,6 @@ useHead(() => ({
     meta: [
         { name: 'description', content: t('seo.description') },
         { name: 'keywords', content: t('seo.keywords') }
-    ],
-    htmlAttrs: {
-        lang: locale.value
-    },
-    link: [
-        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-        { href: 'https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif:ital,wght@0,400..700;1,400..700&display=swap', rel: 'stylesheet' }
     ]
 }))
 </script>

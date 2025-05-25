@@ -5,6 +5,7 @@
 </template>
 
 <script setup lang="ts">
+// Global SEO is now handled in layouts/default.vue
 </script>
 
 <style>
