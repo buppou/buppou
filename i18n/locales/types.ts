@@ -7,6 +7,7 @@ export interface SeoTranslations {
 export interface TruthTranslations {
   name: string;
   description: string;
+  details?: string;
 }
 
 export interface FourNobleTruthsTranslations {
@@ -20,6 +21,7 @@ export interface FourNobleTruthsTranslations {
 export interface PathTranslations {
   name: string;
   description: string;
+  details?: string;
 }
 
 export interface EightfoldPathTranslations {

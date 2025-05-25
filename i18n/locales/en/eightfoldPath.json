@@ -2,34 +2,42 @@
   "title": "The Eightfold Path - The Path of Eightfold Rightness",
   "path1": {
     "name": "1. Right View (Samma Ditthi)",
-    "description": "Correct understanding of the Four Noble Truths, the law of Karma, Impermanence (Anicca), Non-self (Anatta), Dependent Origination (Paticcasamuppada). This is the foundation for the entire path of practice."
+    "description": "Correct understanding of the Four Noble Truths, the law of Karma, Impermanence (Anicca), Non-self (Anatta), Dependent Origination (Paticcasamuppada). This is the foundation for the entire path of practice.",
+    "details": "Right View is the correct understanding of the nature of reality, particularly the Four Noble Truths, the law of Karma (cause and effect), Impermanence (Anicca), Non-self (Anatta), and Dependent Origination (Paticcasamuppada). It is the foundational wisdom that guides the practitioner on the path to liberation. It involves seeing things as they truly are, free from delusion and distortion."
   },
   "path2": {
     "name": "2. Right Intention (Samma Sankappa)",
-    "description": "Right thoughts and aspirations, leading upwards. Includes: thoughts of renunciation (non-sensuality, non-greed), thoughts of non-ill-will (loving-kindness), and thoughts of non-harming (compassion, non-violence)."
+    "description": "Right thoughts and aspirations, leading upwards. Includes: thoughts of renunciation (non-sensuality, non-greed), thoughts of non-ill-will (loving-kindness), and thoughts of non-harming (compassion, non-violence).",
+    "details": "Right Intention involves cultivating pure thoughts and aspirations. This includes the intention of renunciation (letting go of attachment to sensual pleasures and worldly possessions), the intention of non-ill-will (cultivating loving-kindness and compassion towards all beings), and the intention of non-harming (avoiding thoughts and actions that cause suffering to oneself or others). It is the mental resolve to follow the path and develop wholesome qualities."
   },
   "path3": {
     "name": "3. Right Speech (Samma Vaca)",
-    "description": "Right, truthful, and harmonious speech. Avoiding lying, divisive speech (slander), harsh speech (abusive language), and idle chatter (frivolous, meaningless talk)."
+    "description": "Right, truthful, and harmonious speech. Avoiding lying, divisive speech (slander), harsh speech (abusive language), and idle chatter (frivolous, meaningless talk).",
+    "details": "Right Speech is about using language in a constructive and ethical way. It involves abstaining from lying, divisive speech (slander that creates discord), harsh speech (abusive or hurtful language), and idle chatter (frivolous or meaningless talk that lacks purpose). Right Speech promotes truthfulness, harmony, and understanding among individuals."
   },
   "path4": {
     "name": "4. Right Action (Samma Kammanta)",
-    "description": "Right, wholesome actions. Avoiding killing (taking life), stealing (taking what is not given), and sexual misconduct (unlawful sexual relations)."
+    "description": "Right, wholesome actions. Avoiding killing (taking life), stealing (taking what is not given), and sexual misconduct (unlawful sexual relations).",
+    "details": "Right Action involves engaging in ethical and moral conduct. It entails abstaining from killing (taking the life of any sentient being), stealing (taking what is not freely given), and sexual misconduct (engaging in sexual relations that are harmful or exploitative). Right Action is the foundation of a virtuous life and contributes to the well-being of oneself and others."
   },
   "path5": {
     "name": "5. Right Livelihood (Samma Ajiva)",
-    "description": "Earning one's living by right, honest means. Avoiding professions that harm living beings or are unethical, such as trading in weapons, human beings, poisons, or slaughtering animals."
+    "description": "Earning one's living by right, honest means. Avoiding professions that harm living beings or are unethical, such as trading in weapons, human beings, poisons, or slaughtering animals.",
+    "details": "Right Livelihood means earning one's living in a way that does not cause harm to others. This involves avoiding professions that exploit or harm sentient beings, such as trading in weapons, living beings (including slavery and prostitution), meat production, intoxicants, or poisons. Right Livelihood ensures that one's economic activities are in harmony with ethical principles and contribute to a just and compassionate society."
   },
   "path6": {
     "name": "6. Right Effort (Samma Vayama)",
-    "description": "Right, diligent exertion. Includes four types: effort to prevent unwholesome states from arising; effort to abandon unwholesome states that have arisen; effort to develop unarisen wholesome states; effort to maintain and increase arisen wholesome states."
+    "description": "Right, diligent exertion. Includes four types: effort to prevent unwholesome states from arising; effort to abandon unwholesome states that have arisen; effort to develop unarisen wholesome states; effort to maintain and increase arisen wholesome states.",
+    "details": "Right Effort is the conscious and diligent exertion to cultivate wholesome states of mind and abandon unwholesome ones. It involves fourfold effort: preventing unarisen unwholesome states from arising, abandoning arisen unwholesome states, developing unarisen wholesome states, and maintaining and increasing arisen wholesome states. Right Effort is the energy and perseverance needed to progress on the path to liberation."
   },
   "path7": {
     "name": "7. Right Mindfulness (Samma Sati)",
-    "description": "Right remembrance, correct awareness. Always being mindful, clearly aware of what is happening in the present moment, regarding the body (kāya), feelings (vedanā), mind (citta), and mental objects (dhamma)."
+    "description": "Right remembrance, correct awareness. Always being mindful, clearly aware of what is happening in the present moment, regarding the body (kāya), feelings (vedanā), mind (citta), and mental objects (dhamma).",
+    "details": "Right Mindfulness is the practice of present-moment awareness with clear comprehension. It involves paying attention to the four foundations of mindfulness: the body (kāya), feelings (vedanā), mind (citta), and mental objects (dhamma). Right Mindfulness helps to develop insight into the nature of reality, observe thoughts and emotions without judgment, and cultivate a calm and focused mind."
   },
   "path8": {
     "name": "8. Right Concentration (Samma Samadhi)",
-    "description": "Right, firm concentration of mind on a single object. Developing the stages of meditative absorption (Jhana) to achieve a state of calm and clear mind, serving as a foundation for the development of wisdom (Panna)."
+    "description": "Right, firm concentration of mind on a single object. Developing the stages of meditative absorption (Jhana) to achieve a state of calm and clear mind, serving as a foundation for the development of wisdom (Panna).",
+    "details": "Right Concentration is the development of focused and tranquil states of mind through meditation. It involves concentrating the mind on a single object, leading to the absorption states (Jhanas). Right Concentration calms the mind, reduces distractions, and provides a stable foundation for the development of wisdom and insight into the true nature of reality."
   }
 }

@@ -9,7 +9,8 @@
         </NuxtLink>
         <div v-if="path">
             <h1 class="text-4xl font-bold text-purple-400 mb-6">{{ path.name }}</h1>
-            <p class="text-slate-300 leading-relaxed text-lg">{{ path.description }}</p>
+            <p class="text-slate-300 leading-relaxed text-lg mb-4">{{ path.description }}</p>
+            <p v-if="path.details" class="text-slate-300 leading-relaxed text-lg">{{ path.details }}</p>
         </div>
         <div v-else>
             <p class="text-red-500">{{ $t('notFound') }}</p>
@@ -33,6 +34,7 @@ import zhEightfoldPath from '~/i18n/locales/zh/eightfoldPath.json';
 interface Path {
     name: string;
     description: string;
+    details?: string;
 }
 
 interface EightfoldPathData {

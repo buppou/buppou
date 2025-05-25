@@ -9,7 +9,8 @@
         </NuxtLink>
         <div v-if="truth">
             <h1 class="text-4xl font-bold text-green-400 mb-6">{{ truth.name }}</h1>
-            <p class="text-slate-300 leading-relaxed text-lg">{{ truth.description }}</p>
+            <p class="text-slate-300 leading-relaxed text-lg mb-4">{{ truth.description }}</p>
+            <p v-if="truth.details" class="text-slate-300 leading-relaxed text-lg">{{ truth.details }}</p>
         </div>
         <div v-else>
             <p class="text-red-500">{{ $t('notFound') }}</p>
@@ -33,6 +34,7 @@ import zhFourNobleTruths from '~/i18n/locales/zh/fourNobleTruths.json';
 interface Truth {
     name: string;
     description: string;
+    details?: string;
 }
 
 interface FourNobleTruthsData {

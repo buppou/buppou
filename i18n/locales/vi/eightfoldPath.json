@@ -2,34 +2,42 @@
   "title": "Bát Chánh Đạo - Con Đường Tám Chánh",
   "path1": {
     "name": "1. Chánh Kiến (Samma Ditthi)",
-    "description": "Hiểu biết đúng đắn về Tứ Diệu Đế, luật Nhân Quả (Kamma), Vô Thường (Anicca), Vô Ngã (Anatta), Duyên Khởi (Paticcasamuppada). Đây là nền tảng cho toàn bộ con đường tu tập."
+    "description": "Hiểu biết đúng đắn về Tứ Diệu Đế, luật Nhân Quả (Kamma), Vô Thường (Anicca), Vô Ngã (Anatta), Duyên Khởi (Paticcasamuppada). Đây là nền tảng cho toàn bộ con đường tu tập.",
+    "details": "Chánh Kiến là sự hiểu biết đúng đắn về bản chất của thực tại, đặc biệt là Tứ Diệu Đế, luật Nhân Quả (nguyên nhân và kết quả), Vô Thường (Anicca), Vô Ngã (Anatta) và Duyên Khởi (Paticcasamuppada). Đây là trí tuệ nền tảng hướng dẫn hành giả trên con đường giải thoát. Nó liên quan đến việc nhìn mọi thứ đúng như bản chất của chúng, thoát khỏi ảo tưởng và bóp méo."
   },
   "path2": {
     "name": "2. Chánh Tư Duy (Samma Sankappa)",
-    "description": "Suy nghĩ, ý định đúng đắn, hướng thượng. Bao gồm: Tư duy về sự từ bỏ (ly dục, ly tham), tư duy về sự không sân hận (từ bi), và tư duy về sự không làm hại (bất hại, vô sân)."
+    "description": "Suy nghĩ, ý định đúng đắn, hướng thượng. Bao gồm: Tư duy về sự từ bỏ (ly dục, ly tham), tư duy về sự không sân hận (từ bi), và tư duy về sự không làm hại (bất hại, vô sân).",
+    "details": "Chánh Tư Duy liên quan đến việc trau dồi những suy nghĩ và khát vọng thanh tịnh. Điều này bao gồm ý định từ bỏ (buông bỏ sự chấp trước vào khoái lạc giác quan và tài sản thế gian), ý định không sân hận (trau dồi lòng từ bi đối với tất cả chúng sinh), và ý định không làm hại (tránh những suy nghĩ và hành động gây khổ đau cho bản thân hoặc người khác). Đó là sự quyết tâm tinh thần để đi theo con đường và phát triển những phẩm chất tốt đẹp."
   },
   "path3": {
     "name": "3. Chánh Ngữ (Samma Vaca)",
-    "description": "Lời nói đúng đắn, chân thật, hòa ái. Tránh nói dối, nói lời chia rẽ (đâm thọc), nói lời độc ác (mắng nhiếc, chửi rủa), và nói lời vô ích (phù phiếm, nhảm nhí)."
+    "description": "Lời nói đúng đắn, chân thật, hòa ái. Tránh nói dối, nói lời chia rẽ (đâm thọc), nói lời độc ác (mắng nhiếc, chửi rủa), và nói lời vô ích (phù phiếm, nhảm nhí).",
+    "details": "Chánh Ngữ là việc sử dụng ngôn ngữ một cách xây dựng và có đạo đức. Nó bao gồm việc kiêng nói dối, nói lời chia rẽ (lời nói xấu gây bất hòa), nói lời độc ác (ngôn ngữ lăng mạ hoặc gây tổn thương), và nói lời vô ích (lời nói phù phiếm hoặc vô nghĩa, thiếu mục đích). Chánh Ngữ thúc đẩy sự thật, hòa hợp và hiểu biết giữa mọi người."
   },
   "path4": {
     "name": "4. Chánh Nghiệp (Samma Kammanta)",
-    "description": "Hành động đúng đắn, thiện lành. Tránh sát sanh (giết hại chúng sanh), tránh trộm cắp (lấy của không cho), và tránh tà dâm (quan hệ tình dục bất chính)."
+    "description": "Hành động đúng đắn, thiện lành. Tránh sát sanh (giết hại chúng sanh), tránh trộm cắp (lấy của không cho), và tránh tà dâm (quan hệ tình dục bất chính).",
+    "details": "Chánh Nghiệp liên quan đến việc thực hiện các hành vi đạo đức và luân lý. Nó bao gồm việc kiêng sát sanh (lấy mạng bất kỳ chúng sinh nào), trộm cắp (lấy những gì không được cho một cách tự do), và tà dâm (tham gia vào các mối quan hệ tình dục gây hại hoặc bóc lột). Chánh Nghiệp là nền tảng của một cuộc sống đức hạnh và đóng góp vào sự an lạc của bản thân và người khác."
   },
   "path5": {
     "name": "5. Chánh Mạng (Samma Ajiva)",
-    "description": "Nuôi sống bản thân bằng nghề nghiệp chân chính, lương thiện. Tránh các nghề nghiệp gây hại cho chúng sanh hoặc trái với đạo đức như buôn bán vũ khí, buôn bán người, buôn bán chất độc, nghề sát sanh..."
+    "description": "Nuôi sống bản thân bằng nghề nghiệp chân chính, lương thiện. Tránh các nghề nghiệp gây hại cho chúng sanh hoặc trái với đạo đức như buôn bán vũ khí, buôn bán người, buôn bán chất độc, nghề sát sanh...",
+    "details": "Chánh Mạng có nghĩa là nuôi sống bản thân bằng cách không gây hại cho người khác. Điều này bao gồm việc tránh các nghề nghiệp bóc lột hoặc gây hại cho chúng sinh, như buôn bán vũ khí, buôn bán người (bao gồm nô lệ và mại dâm), sản xuất thịt, chất gây say hoặc chất độc. Chánh Mạng đảm bảo rằng các hoạt động kinh tế của một người hài hòa với các nguyên tắc đạo đức và đóng góp vào một xã hội công bằng và từ bi."
   },
   "path6": {
     "name": "6. Chánh Tinh Tấn (Samma Vayama)",
-    "description": "Nỗ lực, siêng năng đúng đắn. Bao gồm bốn loại: Nỗ lực ngăn ngừa điều ác chưa sanh; Nỗ lực diệt trừ điều ác đã sanh; Nỗ lực phát triển điều thiện chưa sanh; Nỗ lực duy trì và tăng trưởng điều thiện đã sanh."
+    "description": "Nỗ lực, siêng năng đúng đắn. Bao gồm bốn loại: Nỗ lực ngăn ngừa điều ác chưa sanh; Nỗ lực diệt trừ điều ác đã sanh; Nỗ lực phát triển điều thiện chưa sanh; Nỗ lực duy trì và tăng trưởng điều thiện đã sanh.",
+    "details": "Chánh Tinh Tấn là sự nỗ lực có ý thức và siêng năng để trau dồi những trạng thái tâm lành mạnh và từ bỏ những trạng thái tâm không lành mạnh. Nó bao gồm bốn loại nỗ lực: ngăn chặn những trạng thái không lành mạnh chưa sanh khởi, từ bỏ những trạng thái không lành mạnh đã sanh khởi, phát triển những trạng thái lành mạnh chưa sanh khởi, và duy trì và tăng trưởng những trạng thái lành mạnh đã sanh khởi. Chánh Tinh Tấn là năng lượng và sự kiên trì cần thiết để tiến bộ trên con đường giải thoát."
   },
   "path7": {
     "name": "7. Chánh Niệm (Samma Sati)",
-    "description": "Ghi nhớ, ý thức đúng đắn. Luôn tỉnh giác, nhận biết rõ ràng về những gì đang xảy ra trong hiện tại, đối với thân (thân thể), thọ (cảm giác), tâm (trạng thái tâm), và pháp (các đối tượng của tâm)."
+    "description": "Ghi nhớ, ý thức đúng đắn. Luôn tỉnh giác, nhận biết rõ ràng về những gì đang xảy ra trong hiện tại, đối với thân (thân thể), thọ (cảm giác), tâm (trạng thái tâm), và pháp (các đối tượng của tâm).",
+    "details": "Chánh Niệm là thực hành chánh niệm trong từng khoảnh khắc với sự hiểu biết rõ ràng. Nó bao gồm việc chú tâm vào bốn nền tảng của chánh niệm: thân (kāya), thọ (vedanā), tâm (citta) và pháp (dhamma). Chánh Niệm giúp phát triển tuệ giác về bản chất của thực tại, quan sát suy nghĩ và cảm xúc mà không phán xét, và trau dồi một tâm trí bình tĩnh và tập trung."
   },
   "path8": {
     "name": "8. Chánh Định (Samma Samadhi)",
-    "description": "Tập trung tâm ý đúng đắn, vững chắc vào một đối tượng duy nhất. Phát triển các tầng thiền định (Jhana) để đạt được trạng thái tâm an tĩnh, sáng suốt, làm nền tảng cho sự phát triển trí tuệ (Panna)."
+    "description": "Tập trung tâm ý đúng đắn, vững chắc vào một đối tượng duy nhất. Phát triển các tầng thiền định (Jhana) để đạt được trạng thái tâm an tĩnh, sáng suốt, làm nền tảng cho sự phát triển trí tuệ (Panna).",
+    "details": "Chánh Định là sự phát triển các trạng thái tâm tập trung và an tĩnh thông qua thiền định. Nó bao gồm việc tập trung tâm trí vào một đối tượng duy nhất, dẫn đến các trạng thái nhập định (Jhanas). Chánh Định làm dịu tâm trí, giảm bớt sự phân tâm và cung cấp nền tảng vững chắc cho sự phát triển trí tuệ và tuệ giác về bản chất thực sự của thực tại."
   }
 }
