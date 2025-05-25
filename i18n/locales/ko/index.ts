@@ -8,6 +8,8 @@ export default defineI18nLocale(
       fourNobleTruths: (await import('./fourNobleTruths.json')).default,
       eightfoldPath: (await import('./eightfoldPath.json')).default,
       footer: (await import('./footer.json')).default,
+      backToHome: '홈으로 돌아가기',
+      notFound: '정보를 찾을 수 없습니다',
     };
   }
 );

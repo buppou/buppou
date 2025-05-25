@@ -8,6 +8,8 @@ export default defineI18nLocale(
       fourNobleTruths: (await import('./fourNobleTruths.json')).default,
       eightfoldPath: (await import('./eightfoldPath.json')).default,
       footer: (await import('./footer.json')).default,
+      backToHome: 'Quay lại trang chủ',
+      notFound: 'Không tìm thấy thông tin',
     };
   }
 );

@@ -46,4 +46,6 @@ export interface Translations {
   fourNobleTruths: FourNobleTruthsTranslations;
   eightfoldPath: EightfoldPathTranslations;
   footer: FooterTranslations;
+  backToHome: string;
+  notFound: string;
 }
