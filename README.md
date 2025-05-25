@@ -1,3 +1,4 @@
+# Buddhist Teachings: Dhamma, 仏法, Phật Pháp, 佛法, 불법
 
 ## Project Purpose
 
@@ -37,7 +38,7 @@ Tứ Diệu Đế như một tấm bản đồ chỉ ra bản chất của khổ
 
 사성제는 고통과 그 원인을 보여주는 지도 역할을 하며, 팔정도는 해탈로 나아가는 실질적인 수단을 제공합니다. 이 플랫폼을 통해 우리는 모든 존재가 다르마를 이해하고, 부지런히 수행하며, 평화와 해탈을 얻기를 바랍니다.
 
-# Nuxt 3 i18n Starter
+## Nuxt 3 i18n Starter
 
 This project is a minimal Nuxt 3 starter with integrated internationalization (i18n) using `@nuxtjs/i18n` and styling with `@nuxtjs/tailwindcss`. It's designed to provide a quick setup for building multilingual web applications.
 
@@ -47,17 +48,16 @@ This project is a comprehensive starter template built with **Nuxt 3**, designed
 
 The core objective of this template is to provide a ready-to-use environment for developers to build applications that can cater to a global audience. Key aspects derived from the project's configuration and file structure include:
 
-*   **Nuxt 3 Framework**: The application is built on the latest version of Nuxt, offering features like server-side rendering (SSR), static site generation (SSG), and a powerful module system, ensuring high performance and developer productivity.
-*   **Comprehensive Internationalization**:
-    *   **Supported Locales**: The project is configured to support a diverse set of languages, including Vietnamese (`vi`), English (`en`), Japanese (`ja`), Chinese (`zh`), and Korean (`ko`). Each locale has its dedicated translation file located in the [`i18n/locales/`](i18n/locales/) directory (e.g., [`en.json`](i18n/locales/en.json), [`ja.json`](i18n/locales/ja.json)).
-    *   **Default Language**: Japanese (`ja`) is set as the default locale, ensuring a consistent fallback if a user's preferred language is not explicitly supported or detected.
-    *   **URL Strategy**: A `no_prefix` URL strategy is employed, meaning language codes are not added to the URL path (e.g., `/about` instead of `/en/about`), contributing to cleaner and more user-friendly URLs.
-    *   **Automatic Language Detection**: The application intelligently detects the user's browser language and redirects them to the appropriate locale, with the preference stored in a cookie for a seamless experience across sessions.
-    *   **Visual Language Indicators**: Flag icons for each supported language are provided in the [`public/flags/`](public/flags/) directory (e.g., [`en.svg`](public/flags/en.svg), [`ja.svg`](public/flags/ja.svg)), which can be used in language switchers for enhanced user experience.
-*   **Tailwind CSS Integration**: The inclusion of `@nuxtjs/tailwindcss` allows for highly efficient and customizable styling. Developers can rapidly build responsive and modern interfaces using Tailwind's extensive set of utility classes, reducing the need for custom CSS and promoting design consistency.
+* **Nuxt 3 Framework**: The application is built on the latest version of Nuxt, offering features like server-side rendering (SSR), static site generation (SSG), and a powerful module system, ensuring high performance and developer productivity.
+* **Comprehensive Internationalization**:
+  * **Supported Locales**: The project is configured to support a diverse set of languages, including Vietnamese (`vi`), English (`en`), Japanese (`ja`), Chinese (`zh`), and Korean (`ko`). Each locale has its dedicated translation file located in the [`i18n/locales/`](i18n/locales/) directory (e.g., [`en.json`](i18n/locales/en.json), [`ja.json`](i18n/locales/ja.json)).
+  * **Default Language**: Japanese (`ja`) is set as the default locale, ensuring a consistent fallback if a user's preferred language is not explicitly supported or detected.
+  * **URL Strategy**: A `no_prefix` URL strategy is employed, meaning language codes are not added to the URL path (e.g., `/about` instead of `/en/about`), contributing to cleaner and more user-friendly URLs.
+  * **Automatic Language Detection**: The application intelligently detects the user's browser language and redirects them to the appropriate locale, with the preference stored in a cookie for a seamless experience across sessions.
+  * **Visual Language Indicators**: Flag icons for each supported language are provided in the [`public/flags/`](public/flags/) directory (e.g., [`en.svg`](public/flags/en.svg), [`ja.svg`](public/flags/ja.svg)), which can be used in language switchers for enhanced user experience.
+* **Tailwind CSS Integration**: The inclusion of `@nuxtjs/tailwindcss` allows for highly efficient and customizable styling. Developers can rapidly build responsive and modern interfaces using Tailwind's extensive set of utility classes, reducing the need for custom CSS and promoting design consistency.
 
 This template is ideal for projects requiring a strong foundation in modern web development practices, particularly those with a need for robust multilingual support and streamlined UI development.
-
 
 ## Setup
 
@@ -137,10 +137,10 @@ This project uses `@nuxtjs/i18n` for internationalization.
 
 The i18n configuration is located in [`nuxt.config.ts`](nuxt.config.ts). Key settings include:
 
-*   `locales`: Defines the supported languages and their corresponding translation files.
-*   `defaultLocale`: Sets the default language for the application (currently `ja`).
-*   `strategy`: `no_prefix` is used, meaning URLs do not include language prefixes (e.g., `/about` instead of `/en/about`).
-*   `detectBrowserLanguage`: Configured to detect the user's browser language and redirect accordingly, storing the preference in a cookie.
+* `locales`: Defines the supported languages and their corresponding translation files.
+* `defaultLocale`: Sets the default language for the application (currently `ja`).
+* `strategy`: `no_prefix` is used, meaning URLs do not include language prefixes (e.g., `/about` instead of `/en/about`).
+* `detectBrowserLanguage`: Configured to detect the user's browser language and redirect accordingly, storing the preference in a cookie.
 
 ### Translation Files
 
@@ -160,11 +160,71 @@ For more details on i18n usage, refer to the [@nuxtjs/i18n documentation](https:
 
 ## Further Information
 
-*   [Nuxt 3 Documentation](https://nuxt.com/docs/getting-started/introduction)
-*   [Nuxt 3 Deployment Documentation](https://nuxt.com/docs/getting-started/deployment)
-*   [@nuxtjs/i18n Documentation](https://i18n.nuxtjs.org/)
-*   [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+* [Nuxt 3 Documentation](https://nuxt.com/docs/getting-started/introduction)
+* [Nuxt 3 Deployment Documentation](https://nuxt.com/docs/getting-started/deployment)
+* [@nuxtjs/i18n Documentation](https://i18n.nuxtjs.org/)
+* [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Commit Message Style
+
+This project follows the Conventional Commits specification. Commit messages should be structured as follows:
+
+```text
+feat: add new feature
+```
+
+or
+
+```text
+fix: resolve bug
+
+This commit fixes the issue where...
+```
+
+The commit message should be structured as follows:
+
+```text
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+**Type:**
+
+Must be one of the following:
+
+* `feat`: A new feature
+* `fix`: A bug fix
+* `docs`: Documentation only changes
+* `style`: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.)
+* `refactor`: A code change that neither fixes a bug nor adds a feature
+* `perf`: A code change that improves performance
+* `test`: Adding missing tests or correcting existing tests
+* `build`: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+* `ci`: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
+* `chore`: Other changes that don't modify src or test files
+* `revert`: Reverts a previous commit
+
+**Scope:**
+
+The scope should be the name of the package affected (as seen in `package.json`) or a description of the area of the codebase (e.g., `auth`, `core`, `compiler`).
+
+**Description:**
+
+A short, imperative tense description of the change (e.g., `fix: prevent racing condition`).
+
+**Body:**
+
+A longer description providing additional context about the change.
+
+**Footer:**
+
+Can contain information about breaking changes or closed issues.
+
+For more details, see the [Conventional Commits website](https://www.conventionalcommits.org/en/v1.0.0/).
