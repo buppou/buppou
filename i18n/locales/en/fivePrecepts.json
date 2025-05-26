@@ -1,27 +1,27 @@
 {
   "title": "The Five Precepts",
   "precept1": {
-    "name": "1. Refrain from taking life",
+    "name": "1. Refrain from taking life (Panatipata veramani)",
     "description": "To abstain from intentionally taking the life of any living being, including humans and animals.",
     "details": "This precept emphasizes compassion (karuṇā) and non-harming (ahiṃsā). It encourages the development of a mind free from ill-will and violence, extending to all forms of life."
   },
   "precept2": {
-    "name": "2. Refrain from taking what is not given",
+    "name": "2. Refrain from taking what is not given (Adinnadana veramani)",
     "description": "To abstain from taking anything that has not been freely given, which includes stealing.",
     "details": "This precept promotes honesty, integrity, and respect for the property and rights of others. It extends beyond physical theft to include exploitation, fraud, and taking advantage of others."
   },
   "precept3": {
-    "name": "3. Refrain from sexual misconduct",
+    "name": "3. Refrain from sexual misconduct (Kamesu micchacara veramani)",
     "description": "To abstain from sexual activities that cause harm to oneself or others.",
     "details": "This precept encourages responsible and respectful sexual behavior, promoting fidelity in relationships and avoiding actions such as adultery, exploitation, or any sexual activity that causes suffering."
   },
   "precept4": {
-    "name": "4. Refrain from wrong speech",
+    "name": "4. Refrain from wrong speech (Musavada veramani)",
     "description": "To abstain from false, harsh, divisive, or idle speech.",
     "details": "This precept promotes truthful, kind, and beneficial communication. It encourages speaking in a way that fosters harmony and understanding, avoiding lying, gossiping, abusive language, and meaningless chatter."
   },
   "precept5": {
-    "name": "5. Refrain from intoxicants that cloud the mind",
+    "name": "5. Refrain from intoxicants that cloud the mind (Suramerayamajjapamadatthana veramani)",
     "description": "To abstain from substances that lead to heedlessness and loss of mindfulness.",
     "details": "This precept promotes clarity of mind and awareness. It encourages avoiding alcohol, recreational drugs, and other intoxicants that impair judgment, reduce self-control, and hinder spiritual progress."
   }
