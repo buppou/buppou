@@ -1,7 +1,7 @@
 <template>
     <div class="container mx-auto px-4">
         <div v-if="action">
-            <h1 class="text-4xl font-bold text-blue-400 mb-6">{{ action.name }}</h1>
+            <h1 class="text-4xl font-bold text-pink-400 mb-6">{{ action.name }}</h1>
             <p class="text-slate-300 leading-relaxed text-lg mb-4">{{ action.description }}</p>
             <p v-if="action.details" class="text-slate-300 leading-relaxed text-lg">{{ action.details }}</p>
         </div>
@@ -12,7 +12,7 @@
         <!-- Navigation -->
         <div class="flex justify-between mt-8">
             <NuxtLink v-if="prevActionSlug && prevActionName" :to="`/ten-wholesome-actions/${prevActionSlug}`"
-                class="flex items-center text-blue-400 hover:text-blue-300 transition-colors">
+                class="flex items-center text-pink-400 hover:text-pink-300 transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd"
                         d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
@@ -23,7 +23,7 @@
             <div v-else></div> <!-- Placeholder to maintain spacing -->
 
             <NuxtLink v-if="nextActionSlug && nextActionName" :to="`/ten-wholesome-actions/${nextActionSlug}`"
-                class="flex items-center text-blue-400 hover:text-blue-300 transition-colors">
+                class="flex items-center text-pink-400 hover:text-pink-300 transition-colors">
                 {{ nextActionName }}
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd"

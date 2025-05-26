@@ -1,18 +1,18 @@
 <template>
     <section class="mb-20">
         <h2
-            class="text-5xl font-bold text-blue-400 mb-10 text-center relative pb-4
+            class="text-5xl font-bold text-pink-300 mb-10 text-center relative pb-4
                   after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0
-                  after:w-32 after:h-1 after:bg-gradient-to-r after:from-blue-500 after:to-cyan-400 after:rounded-full animate-fadeInUp">
+                  after:w-32 after:h-1 after:bg-gradient-to-r after:from-pink-400 after:to-pink-300 after:rounded-full animate-fadeInUp">
             {{ $t('tenWholesomeActions.title') }}
         </h2>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
             <NuxtLink v-for="item in tenWholesomeActionsItems" :key="item.key"
                 :to="`/ten-wholesome-actions/${item.key}-${slugify(cleanEnglishName(item.action.name))}`"
                 class="bg-slate-800/70 backdrop-blur-md p-8 rounded-xl shadow-2xl border border-slate-700 hover:border-blue-500 transition-all duration-300 transform hover:scale-105">
-                <h3 class="text-3xl font-semibold text-blue-400 mb-4 flex items-center">
+                <h3 class="text-3xl font-semibold text-pink-300 mb-4 flex items-center">
                     <!-- Dynamic SVG icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 min-w-8 min-h-8 mr-3 text-blue-500"
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 min-w-8 min-h-8 mr-3 text-pink-400"
                         fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             :d="svgIcons[item.key]" />
