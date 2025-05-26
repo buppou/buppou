@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen bg-gradient-to-tr from-slate-950 via-slate-800 to-sky-900 text-slate-200 font-sans">
+    <div class="min-h-screen bg-gradient-to-tr from-slate-950 via-slate-800 to-sky-900 text-slate-200">
         <div class="container mx-auto px-4 py-12">
             <header class="text-center mb-8 animate-fadeInDown relative">
                 <h1
