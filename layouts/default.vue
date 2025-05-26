@@ -9,20 +9,25 @@
                     </h1>
                     <p class="text-2xl text-sky-300 italic">{{ $t('seo.title').split(' - ')[1] }}</p>
                 </NuxtLink>
-                <nav class="mt-4 flex justify-center space-x-6">
-                    <NuxtLink to="/" class="text-xl text-amber-300 hover:text-amber-200 transition-colors font-semibold">
+                <nav class="mt-4 flex flex-wrap justify-center gap-x-6 gap-y-2">
+                    <NuxtLink to="/"
+                        class="text-xl text-amber-300 hover:text-amber-200 transition-colors font-semibold">
                         {{ $t('home') }}
                     </NuxtLink>
-                    <NuxtLink to="/four-noble-truths" class="text-xl text-green-300 hover:text-green-200 transition-colors font-semibold">
+                    <NuxtLink to="/four-noble-truths"
+                        class="text-xl text-green-300 hover:text-green-200 transition-colors font-semibold">
                         {{ $t('fourNobleTruths.title') }}
                     </NuxtLink>
-                    <NuxtLink to="/eightfold-path" class="text-xl text-purple-300 hover:text-purple-200 transition-colors font-semibold">
+                    <NuxtLink to="/eightfold-path"
+                        class="text-xl text-purple-300 hover:text-purple-200 transition-colors font-semibold">
                         {{ $t('eightfoldPath.title') }}
                     </NuxtLink>
-                    <NuxtLink to="/five-precepts" class="text-xl text-blue-300 hover:text-blue-200 transition-colors font-semibold">
+                    <NuxtLink to="/five-precepts"
+                        class="text-xl text-blue-300 hover:text-blue-200 transition-colors font-semibold">
                         {{ $t('fivePrecepts.title') }}
                     </NuxtLink>
-                    <NuxtLink to="/ten-wholesome-actions" class="text-xl text-pink-300 hover:text-pink-200 transition-colors font-semibold">
+                    <NuxtLink to="/ten-wholesome-actions"
+                        class="text-xl text-pink-300 hover:text-pink-200 transition-colors font-semibold">
                         {{ $t('tenWholesomeActions.title') }}
                     </NuxtLink>
                 </nav>
