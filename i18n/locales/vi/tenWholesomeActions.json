@@ -1,0 +1,53 @@
+{
+  "title": "Thập Thiện Nghiệp",
+  "action1": {
+    "name": "1. Không sát sinh",
+    "description": "Không cố ý tước đoạt mạng sống của bất kỳ chúng sinh nào.",
+    "details": "Điều này bao gồm việc tu dưỡng lòng từ bi và bất bạo động đối với tất cả chúng sinh, nhận ra sự quý giá của sự sống."
+  },
+  "action2": {
+    "name": "2. Không trộm cắp",
+    "description": "Không lấy những gì không được cho, tức là không trộm cắp.",
+    "details": "Điều này thúc đẩy sự trung thực, chính trực và tôn trọng tài sản, quyền lợi của người khác, tránh mọi hình thức bóc lột."
+  },
+  "action3": {
+    "name": "3. Không tà dâm",
+    "description": "Không tham gia vào các hành vi tình dục gây hại cho bản thân hoặc người khác.",
+    "details": "Điều này khuyến khích hành vi tình dục có trách nhiệm và tôn trọng, thúc đẩy sự chung thủy trong các mối quan hệ và tránh các hành vi dẫn đến đau khổ hoặc bóc lột."
+  },
+  "action4": {
+    "name": "4. Không nói dối",
+    "description": "Không nói lời sai sự thật.",
+    "details": "Điều này bao gồm việc nói thật và chân thành, nuôi dưỡng sự tin cậy và rõ ràng trong giao tiếp."
+  },
+  "action5": {
+    "name": "5. Không nói lưỡi đôi chiều",
+    "description": "Không nói lời gây chia rẽ hoặc bất hòa giữa mọi người.",
+    "details": "Điều này thúc đẩy giao tiếp hài hòa, khuyến khích những lời nói đoàn kết thay vì chia rẽ, và tránh nói xấu hoặc phỉ báng."
+  },
+  "action6": {
+    "name": "6. Không nói lời thô ác",
+    "description": "Không nói lời lăng mạ, thô lỗ hoặc xúc phạm.",
+    "details": "Điều này bao gồm việc nói lời tử tế và nhẹ nhàng, tránh những lời gây đau đớn hoặc tức giận, và tạo ra một bầu không khí tôn trọng."
+  },
+  "action7": {
+    "name": "7. Không nói lời vô ích",
+    "description": "Không nói những lời vô nghĩa hoặc phù phiếm.",
+    "details": "Điều này khuyến khích lời nói có mục đích và có lợi, tránh những cuộc trò chuyện quá mức hoặc không hiệu quả làm lãng phí thời gian và năng lượng."
+  },
+  "action8": {
+    "name": "8. Không tham lam",
+    "description": "Không tham lam hoặc thèm muốn tài sản của người khác.",
+    "details": "Điều này bao gồm việc tu dưỡng sự mãn nguyện với những gì mình có, tránh ghen tị và tham lam, và nuôi dưỡng lòng quảng đại."
+  },
+  "action9": {
+    "name": "9. Không sân hận",
+    "description": "Không nuôi dưỡng những ý nghĩ thù hận, giận dữ hoặc oán giận.",
+    "details": "Điều này thúc đẩy sự phát triển của lòng từ bi và từ ái, giải phóng những cảm xúc tiêu cực và nuôi dưỡng sự tha thứ."
+  },
+  "action10": {
+    "name": "10. Chánh kiến",
+    "description": "Có sự hiểu biết đúng đắn về thực tại, nghiệp và con đường giải thoát.",
+    "details": "Điều này bao gồm việc tu dưỡng trí tuệ và cái nhìn sâu sắc về bản chất của sự tồn tại, hiểu rõ nhân quả và điều chỉnh hành động của mình phù hợp với các nguyên tắc của Phật pháp."
+  }
+}

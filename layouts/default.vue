@@ -20,6 +20,9 @@
                     <NuxtLink to="/five-precepts" class="text-xl text-blue-300 hover:text-blue-200 transition-colors font-semibold">
                         {{ $t('fivePrecepts.title') }}
                     </NuxtLink>
+                    <NuxtLink to="/ten-wholesome-actions" class="text-xl text-pink-300 hover:text-pink-200 transition-colors font-semibold">
+                        {{ $t('tenWholesomeActions.title') }}
+                    </NuxtLink>
                 </nav>
             </header>
 

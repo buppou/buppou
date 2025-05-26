@@ -3,6 +3,7 @@
         <FourNobleTruthsIndex />
         <EightfoldPathIndex />
         <FivePreceptsIndex />
+        <TenWholesomeActionsIndex />
     </div>
 </template>
 
@@ -11,6 +12,7 @@ import { useI18n } from 'vue-i18n';
 import FourNobleTruthsIndex from '~/pages/four-noble-truths/index.vue';
 import EightfoldPathIndex from '~/pages/eightfold-path/index.vue';
 import FivePreceptsIndex from '~/pages/five-precepts/index.vue';
+import TenWholesomeActionsIndex from '~/pages/ten-wholesome-actions/index.vue';
 
 const { t } = useI18n();
 

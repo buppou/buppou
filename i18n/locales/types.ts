@@ -51,6 +51,26 @@ export interface FivePreceptsTranslations {
   precept5: PreceptTranslations;
 }
 
+export interface ActionTranslations {
+  name: string;
+  description: string;
+  details?: string;
+}
+
+export interface TenWholesomeActionsTranslations {
+  title: string;
+  action1: ActionTranslations;
+  action2: ActionTranslations;
+  action3: ActionTranslations;
+  action4: ActionTranslations;
+  action5: ActionTranslations;
+  action6: ActionTranslations;
+  action7: ActionTranslations;
+  action8: ActionTranslations;
+  action9: ActionTranslations;
+  action10: ActionTranslations;
+}
+
 export interface FooterTranslations {
   line1_part1: string;
   line1_part2: string;
@@ -64,6 +84,7 @@ export interface Translations {
   fourNobleTruths: FourNobleTruthsTranslations;
   eightfoldPath: EightfoldPathTranslations;
   fivePrecepts: FivePreceptsTranslations;
+  tenWholesomeActions: TenWholesomeActionsTranslations;
   footer: FooterTranslations;
   backToHome: string;
   notFound: string;
