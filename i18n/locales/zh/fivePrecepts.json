@@ -1,27 +1,27 @@
 {
   "title": "五戒",
   "precept1": {
-    "name": "1. 不杀生 (Panatipata veramani)",
+    "name": "1. 不杀生",
     "description": "戒除故意杀害任何有情众生，包括人类和动物。",
     "details": "此戒律强调慈悲（karuṇā）和非暴力（ahiṃsā）。它鼓励培养一个没有恶意和暴力的心，适用于所有形式的生命。"
   },
   "precept2": {
-    "name": "2. 不偷盗 (Adinnadana veramani)",
+    "name": "2. 不偷盗",
     "description": "戒除未经自由给予而取走任何东西，包括偷窃。",
     "details": "此戒律提倡诚实、正直和尊重他人的财产及权利。它不仅包括实际盗窃，还包括剥削、欺诈和利用他人。"
   },
   "precept3": {
-    "name": "3. 不邪淫 (Kamesu micchacara veramani)",
+    "name": "3. 不邪淫",
     "description": "戒除对自己或他人造成伤害的性行为。",
     "details": "此戒律鼓励负责任和尊重的性行为，促进关系中的忠诚，并避免通奸、剥削或任何导致痛苦的性行为。"
   },
   "precept4": {
-    "name": "4. 不妄语 (Musavada veramani)",
+    "name": "4. 不妄语",
     "description": "戒除虚假、粗暴、离间或无益的言语。",
     "details": "此戒律提倡真实、善良和有益的沟通。它鼓励以促进和谐和理解的方式说话，避免说谎、散布谣言、辱骂性语言和无意义的闲聊。"
   },
   "precept5": {
-    "name": "5. 不饮酒 (Suramerayamajjapamadatthana veramani)",
+    "name": "5. 不饮酒",
     "description": "戒除导致放逸和失去正念的物质。",
     "details": "此戒律促进心智的清明和觉知。它鼓励避免酒精、娱乐性药物和其他损害判断力、降低自控能力并阻碍精神进步的麻醉品。"
   }

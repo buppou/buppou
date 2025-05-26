@@ -1,15 +1,15 @@
 <template>
     <section class="mb-20">
         <h2
-            class="text-5xl font-bold text-blue-400 mb-10 text-center relative pb-4
+            class="text-4xl sm:text-5xl font-bold text-blue-400 mb-10 text-center relative pb-4
                  after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0
                  after:w-32 after:h-1 after:bg-gradient-to-r after:from-blue-500 after:to-cyan-400 after:rounded-full animate-fadeInUp">
             {{ $t('fivePrecepts.title') }}
         </h2>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
             <NuxtLink v-for="item in fivePreceptsItems" :key="item.key"
                 :to="`/five-precepts/${item.key}-${slugify(cleanEnglishName(item.precept.name))}`"
-                class="bg-slate-800/70 backdrop-blur-md p-8 rounded-xl shadow-2xl border border-slate-700 hover:border-blue-500 transition-all duration-300 transform hover:scale-105">
+                class="bg-slate-800/70 backdrop-blur-md p-8 rounded-xl shadow-2xl border border-slate-700 hover:border-blue-500 transition-all duration-300 transform hover:scale-105 flex flex-col h-full">
                 <h3 class="text-3xl font-semibold text-blue-400 mb-4 flex items-center">
                     <!-- Dynamic SVG icon -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 min-w-8 min-h-8 mr-3 text-blue-500"
@@ -19,7 +19,7 @@
                     </svg>
                     {{ $t(`fivePrecepts.${item.key}.name`) }}
                 </h3>
-                <p class="text-slate-300 leading-relaxed text-lg">
+                <p class="text-slate-300 leading-relaxed text-lg flex-grow">
                     {{ $t(`fivePrecepts.${item.key}.description`) }}
                 </p>
             </NuxtLink>

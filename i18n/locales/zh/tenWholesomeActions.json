@@ -1,52 +1,52 @@
 {
   "title": "十善業道",
   "action1": {
-    "name": "1. 不殺生 (Panatipata Veramani)",
+    "name": "1. 不殺生",
     "description": "不故意奪取任何眾生的生命，包括人類和動物。",
     "details": "這包括培養對所有有情眾生的慈悲（karuṇā）和非暴力（ahiṃsā），認識到生命的寶貴，並避免壓迫和騷擾。"
   },
   "action2": {
-    "name": "2. 不偷盜 (Adinnadana Veramani)",
+    "name": "2. 不偷盜",
     "description": "不拿取未經允許的東西，即不偷竊。",
     "details": "這促進誠實、正直和尊重他人的財產和權利，避免一切形式的剝削、竊取和盜竊。"
   },
   "action3": {
-    "name": "3. 不邪淫 (Kamesu Micchacara Veramani)",
+    "name": "3. 不邪淫",
     "description": "不參與對自己或他人造成傷害的性行為。",
     "details": "這鼓勵負責任和尊重的性行為，促進關係中的忠誠，並避免導致痛苦或剝削的行為，例如通姦、剝削、虐待、羞辱或玷污他人的親人。"
   },
   "action4": {
-    "name": "4. 不妄語 (Musavada Veramani)",
+    "name": "4. 不妄語",
     "description": "不說謊言。",
     "details": "這包括說真話和真誠，在溝通中培養信任和清晰，並且不故意為了個人利益而說偏離事實的話。"
   },
   "action5": {
-    "name": "5. 不兩舌 (Pisunavaca Veramani)",
+    "name": "5. 不兩舌",
     "description": "不說造成人與人之間不和或分裂的話。",
     "details": "這促進和諧溝通，鼓勵團結而非分裂的言辭，並避免惡意言辭，煽動人與人之間的衝突。"
   },
   "action6": {
-    "name": "6. 不惡口 (Pharusavaca Veramani)",
+    "name": "6. 不惡口",
     "description": "不說辱罵、粗魯或冒犯的語言。",
     "details": "這包括說友善和溫和的話，避免引起痛苦或憤怒的言辭，並營造尊重的氛圍，只說禮貌和悅耳的話。"
   },
   "action7": {
-    "name": "7. 不綺語 (Samphappalapa Veramani)",
+    "name": "7. 不綺語",
     "description": "不說無意義或輕浮的話。",
     "details": "這鼓勵有目的和有益的言辭，避免過度或無效的對話，以免浪費時間和精力，只說真實、合理、有用且適合場合的話。"
   },
   "action8": {
-    "name": "8. 不貪欲 (Abhijjha)",
+    "name": "8. 不貪欲",
     "description": "不貪圖或渴望他人的財物。",
     "details": "這包括培養對自己所擁有的滿足感，避免嫉妒和貪婪，並培養慷慨和一顆寬宏的心，不只專注於獲取。"
   },
   "action9": {
-    "name": "9. 不瞋恚 (Vyapada)",
+    "name": "9. 不瞋恚",
     "description": "不懷有仇恨、憤怒或怨恨的念頭。",
     "details": "這促進慈悲和慈愛的發展，釋放負面情緒並培養寬恕，對他人懷有善意，傳播善意並以共同利益為目標。"
   },
   "action10": {
-    "name": "10. 正見 (Samma Ditthi)",
+    "name": "10. 正見",
     "description": "對實相、業力以及解脫之道有正確的理解。",
     "details": "這包括培養對存在本質的智慧和洞察力，理解業力法則（善行帶來善果，惡行帶來惡果），並使自己的行為與佛法的原則相符，根據因緣看待事物的發展。"
   }
