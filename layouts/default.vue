@@ -7,6 +7,17 @@
                     {{ $t('seo.title').split(' - ')[0] }}
                 </h1>
                 <p class="text-2xl text-sky-300 italic">{{ $t('seo.title').split(' - ')[1] }}</p>
+                <nav class="mt-4 flex justify-center space-x-6">
+                    <NuxtLink to="/" class="text-xl text-amber-300 hover:text-amber-200 transition-colors font-semibold">
+                        {{ $t('home') }}
+                    </NuxtLink>
+                    <NuxtLink to="/four-noble-truths" class="text-xl text-green-300 hover:text-green-200 transition-colors font-semibold">
+                        {{ $t('fourNobleTruths.title') }}
+                    </NuxtLink>
+                    <NuxtLink to="/eightfold-path" class="text-xl text-purple-300 hover:text-purple-200 transition-colors font-semibold">
+                        {{ $t('eightfoldPath.title') }}
+                    </NuxtLink>
+                </nav>
             </header>
 
             <!-- Language Switcher -->
@@ -39,7 +50,7 @@
 
 <script setup lang="ts">
 import { useI18n, useLocaleHead } from '#imports';
-import { useHead } from '#app'; // Use Nuxt's built-in useHead
+import { useHead } from '#app';
 
 const { locale, setLocale, t } = useI18n();
 

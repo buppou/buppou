@@ -1,12 +1,5 @@
 <template>
     <div class="container mx-auto px-4">
-        <NuxtLink to="/" class="flex items-center text-green-400 hover:text-green-300 transition-colors mb-8">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-            </svg>
-            {{ $t('backToHome') }}
-        </NuxtLink>
         <div v-if="truth">
             <h1 class="text-4xl font-bold text-green-400 mb-6">{{ truth.name }}</h1>
             <p class="text-slate-300 leading-relaxed text-lg mb-4">{{ truth.description }}</p>

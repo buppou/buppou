@@ -43,6 +43,7 @@ export interface FooterTranslations {
 }
 
 export interface Translations {
+  home: string;
   welcome: string; // Assuming 'welcome' is still at the top level
   seo: SeoTranslations;
   fourNobleTruths: FourNobleTruthsTranslations;

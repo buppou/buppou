@@ -3,6 +3,7 @@ import type { Translations } from '../types';
 export default defineI18nLocale(
   async (locale: string): Promise<Translations> => {
     return {
+      home: 'ホーム',
       welcome: 'Buppouへようこそ！', // Assuming 'welcome' is still needed
       seo: (await import('./seo.json')).default,
       fourNobleTruths: (await import('./fourNobleTruths.json')).default,
