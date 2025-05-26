@@ -1,53 +1,53 @@
 {
   "title": "The Ten Wholesome Actions",
   "action1": {
-    "name": "1. Not taking life",
-    "description": "Abstaining from intentionally killing any living being.",
-    "details": "This involves cultivating compassion and non-violence towards all sentient beings, recognizing the preciousness of life."
+    "name": "1. Abstaining from taking life (Panatipata Veramani)",
+    "description": "To abstain from intentionally taking the life of any living being, including humans and animals.",
+    "details": "This involves cultivating compassion (karuṇā) and non-harming (ahiṃsā) towards all sentient beings, recognizing the preciousness of life and avoiding oppression and harassment."
   },
   "action2": {
-    "name": "2. Not taking what is not given",
-    "description": "Abstaining from stealing or taking anything that has not been freely offered.",
-    "details": "This promotes honesty, integrity, and respect for others' property and rights, avoiding all forms of exploitation."
+    "name": "2. Abstaining from taking what is not given (Adinnadana Veramani)",
+    "description": "To abstain from stealing or taking anything that has not been freely given.",
+    "details": "This promotes honesty, integrity, and respect for the property and rights of others, avoiding all forms of exploitation, filching, and theft."
   },
   "action3": {
-    "name": "3. Not engaging in sexual misconduct",
-    "description": "Abstaining from sexual activities that cause harm to oneself or others.",
-    "details": "This encourages responsible and respectful sexual behavior, promoting fidelity, and avoiding actions that lead to suffering or exploitation."
+    "name": "3. Abstaining from sexual misconduct (Kamesu Micchacara Veramani)",
+    "description": "To abstain from sexual activities that cause harm to oneself or others.",
+    "details": "This encourages responsible and respectful sexual behavior, promoting fidelity in relationships and avoiding actions such as adultery, exploitation, abuse, disgracing, or dishonoring others' loved ones."
   },
   "action4": {
-    "name": "4. Not lying",
-    "description": "Abstaining from false speech.",
-    "details": "This involves speaking truthfully and sincerely, fostering trust and clarity in communication."
+    "name": "4. Abstaining from false speech (Musavada Veramani)",
+    "description": "To abstain from lying or speaking untruthfully.",
+    "details": "This involves speaking truthfully and sincerely, fostering trust and clarity in communication, and not intentionally saying things that stray from the truth out of a desire for personal gain."
   },
   "action5": {
-    "name": "5. Not engaging in divisive speech",
-    "description": "Abstaining from speech that creates discord or separation among people.",
-    "details": "This promotes harmonious communication, encouraging words that unite rather than divide, and avoiding gossip or slander."
+    "name": "5. Abstaining from divisive speech (Pisunavaca Veramani)",
+    "description": "To abstain from speech that creates discord or separation among people.",
+    "details": "This promotes harmonious communication, encouraging words that unite rather than divide, and avoiding malicious speech inciting one person against another."
   },
   "action6": {
-    "name": "6. Not engaging in harsh speech",
-    "description": "Abstaining from abusive, rude, or offensive language.",
-    "details": "This involves speaking kindly and gently, avoiding words that cause pain or anger, and fostering an atmosphere of respect."
+    "name": "6. Abstaining from harsh speech (Pharusavaca Veramani)",
+    "description": "To abstain from abusive, rude, or offensive language.",
+    "details": "This involves speaking kindly and gently, avoiding words that cause pain or anger, and fostering an atmosphere of respect, speaking only words that are polite and pleasant to the ear."
   },
   "action7": {
-    "name": "7. Not engaging in idle chatter",
-    "description": "Abstaining from meaningless or frivolous talk.",
-    "details": "This encourages purposeful and beneficial speech, avoiding excessive or unproductive conversation that wastes time and energy."
+    "name": "7. Abstaining from idle chatter (Samphappalapa Veramani)",
+    "description": "To abstain from meaningless or frivolous talk.",
+    "details": "This encourages purposeful and beneficial speech, avoiding excessive or unproductive conversation that wastes time and energy, speaking only words that are true, reasonable, useful and appropriate to the occasion."
   },
   "action8": {
-    "name": "8. Not being covetous",
-    "description": "Abstaining from craving or desiring others' possessions.",
-    "details": "This involves cultivating contentment with what one has, avoiding envy and greed, and fostering generosity."
+    "name": "8. Abstaining from covetousness (Abhijjha)",
+    "description": "To abstain from craving or desiring others' possessions.",
+    "details": "This involves cultivating contentment with what one has, avoiding envy and greed, and fostering generosity and a munificent mind, not focusing only on taking."
   },
   "action9": {
-    "name": "9. Not harboring ill will",
-    "description": "Abstaining from thoughts of hatred, anger, or resentment.",
-    "details": "This promotes the development of loving-kindness and compassion, releasing negative emotions and fostering forgiveness."
+    "name": "9. Abstaining from ill will (Vyapada)",
+    "description": "To abstain from thoughts of hatred, anger, or resentment.",
+    "details": "This promotes the development of loving-kindness and compassion, releasing negative emotions and fostering forgiveness, bearing good intentions toward others, spreading good will and aiming for the common good."
   },
   "action10": {
-    "name": "10. Holding right view",
-    "description": "Having a correct understanding of reality, karma, and the path to liberation.",
-    "details": "This involves cultivating wisdom and insight into the nature of existence, understanding cause and effect, and aligning one's actions with the principles of the Dharma."
+    "name": "10. Cultivating Right View (Samma Ditthi)",
+    "description": "To have a correct understanding of reality, karma, and the path to liberation.",
+    "details": "This involves cultivating wisdom and insight into the nature of existence, understanding the law of kamma (that good actions bring good results and bad actions bring bad results), and aligning one's actions with the principles of the Dharma, seeing the faring of things according to causes and conditions."
   }
 }
