@@ -36,6 +36,21 @@ export interface EightfoldPathTranslations {
   path8: PathTranslations;
 }
 
+export interface PreceptTranslations {
+  name: string;
+  description: string;
+  details?: string;
+}
+
+export interface FivePreceptsTranslations {
+  title: string;
+  precept1: PreceptTranslations;
+  precept2: PreceptTranslations;
+  precept3: PreceptTranslations;
+  precept4: PreceptTranslations;
+  precept5: PreceptTranslations;
+}
+
 export interface FooterTranslations {
   line1_part1: string;
   line1_part2: string;
@@ -48,6 +63,7 @@ export interface Translations {
   seo: SeoTranslations;
   fourNobleTruths: FourNobleTruthsTranslations;
   eightfoldPath: EightfoldPathTranslations;
+  fivePrecepts: FivePreceptsTranslations;
   footer: FooterTranslations;
   backToHome: string;
   notFound: string;

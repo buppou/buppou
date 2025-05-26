@@ -17,6 +17,9 @@
                     <NuxtLink to="/eightfold-path" class="text-xl text-purple-300 hover:text-purple-200 transition-colors font-semibold">
                         {{ $t('eightfoldPath.title') }}
                     </NuxtLink>
+                    <NuxtLink to="/five-precepts" class="text-xl text-blue-300 hover:text-blue-200 transition-colors font-semibold">
+                        {{ $t('fivePrecepts.title') }}
+                    </NuxtLink>
                 </nav>
             </header>
 
